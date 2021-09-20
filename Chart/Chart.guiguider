@@ -1,0 +1,509 @@
+{
+	"projectName": "Chart",
+	"boardPlatformSettings": {
+		"resolution": {
+			"width": "480",
+			"height": "272"
+		},
+		"color_depth": 16,
+		"name": "Simulator",
+		"OS": "Windows/macOS/Linux",
+		"mcu": "Simulator",
+		"mcuxpresso_config": {
+			"CMAKE_BUILD_TYPE": "null"
+		}
+	},
+	"BuildStatus": {
+		"supportPXP": false,
+		"enable_pxp": false
+	},
+	"version": "1.0.0-GA",
+	"lvConf": {
+		"LV_HOR_RES_MAX": "(480)",
+		"LV_VER_RES_MAX": "(272)",
+		"LV_COLOR_DEPTH": 16,
+		"LV_MEM_CUSTOM": "0",
+		"LV_MEM_SIZE": "320",
+		"LV_MEM_ADR": "0",
+		"LV_MEM_AUTO_DEFRAG": "1",
+		"LV_MEM_CUSTOM_INCLUDE": "<stdlib.h>",
+		"LV_MEM_CUSTOM_ALLOC": "malloc",
+		"LV_MEM_CUSTOM_FREE": "free",
+		"LV_USE_GPU": "1",
+		"LV_USE_GPU_NXP_PXP": "~~",
+		"LV_USE_GPU_NXP_PXP_DEFAULT_OSA": "~~",
+		"LV_USE_GPU_NXP_VG_LITE": "~~"
+	},
+	"ImportFonts": {
+		"simsun": "simsun.woff",
+		"montserratMedium": "Montserrat-medium.ttf"
+	},
+	"FrontJson": [
+		{
+			"name": "screen",
+			"id": "screen",
+			"list": [
+				{
+					"name": "chart0",
+					"type": "chart",
+					"left": 78,
+					"top": 80,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 317,
+					"height": 163,
+					"range": 100,
+					"row": 3,
+					"col": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"chart_data": [
+						{
+							"chart_color": "#000000",
+							"chart_points": [
+								10,
+								20,
+								30,
+								40,
+								10,
+								50,
+								70,
+								30,
+								10,
+								30
+							]
+						}
+					],
+					"part": "LV_CHART_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"border_width": 0,
+					"border_color": "#ffffff",
+					"line_color": "#e8e8e8",
+					"line_width": 2,
+					"line_opa": 255,
+					"style": [
+						{
+							"part": "LV_CHART_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHART_PART_SERIES_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"line_color": "#e8e8e8",
+							"line_width": 2,
+							"line_opa": 255
+						},
+						{
+							"part": "LV_CHART_PART_BG",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"border_width": 0,
+							"border_color": "#ffffff"
+						}
+					],
+					"id": "sgmod5rq",
+					"default_style": false
+				},
+				{
+					"name": "btn1",
+					"type": "btn",
+					"left": 365,
+					"top": 9,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 35,
+					"text": "Start",
+					"font": 12,
+					"font_family": "simsun",
+					"text_color": "#000000",
+					"toggle": false,
+					"part": "LV_BTN_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"border_width": 2,
+					"border_color": "#0f0f0f",
+					"border_opa": 255,
+					"radius": 50,
+					"outline_color": "#d4d7d9",
+					"outline_opa": 255,
+					"style": [
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#0f0f0f",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 100
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						}
+					],
+					"id": "f696xmv1",
+					"default_style": false,
+					"event": [
+						{
+							"src": "btn1",
+							"trigger": "clicked",
+							"dst": "f696xmv1",
+							"action": "bg_color",
+							"value": "#000000"
+						}
+					]
+				},
+				{
+					"name": "label2",
+					"type": "label",
+					"left": 107,
+					"top": 13,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 94,
+					"height": 0,
+					"text": "Internet Speed",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": "16",
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": "16",
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "pb730vrn",
+					"default_style": false
+				}
+			]
+		}
+	],
+	"FrontStatus": {},
+	"Application": {
+		"name": "testingJson",
+		"version": "test_v1",
+		"default_scr": "screen",
+		"screen": [
+			{
+				"name": "screen",
+				"type": "scr",
+				"widgets": [
+					{
+						"name": "screen_chart0",
+						"type": "chart",
+						"pos": [
+							78,
+							80
+						],
+						"size": [
+							317,
+							163
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_CHART_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHART_PART_SERIES_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"line_color": "#e8e8e8",
+								"line_width": 2,
+								"line_opa": 255
+							},
+							{
+								"part": "LV_CHART_PART_BG",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"border_width": 0,
+								"border_color": "#ffffff"
+							}
+						],
+						"chart_type": "LV_CHART_TYPE_LINE",
+						"div_line_count": [
+							3,
+							5
+						],
+						"range": 100,
+						"chart_data": [
+							{
+								"chart_color": "#000000",
+								"chart_points": [
+									10,
+									20,
+									30,
+									40,
+									10,
+									50,
+									70,
+									30,
+									10,
+									30
+								]
+							}
+						]
+					},
+					{
+						"name": "screen_btn1",
+						"type": "btn",
+						"pos": [
+							365,
+							9
+						],
+						"size": [
+							100,
+							35
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#0f0f0f",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 100
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							}
+						],
+						"text": "Start",
+						"font": 12,
+						"font_family": "simsun",
+						"text_color": "#000000",
+						"toggle": false
+					},
+					{
+						"name": "screen_label2",
+						"type": "label",
+						"pos": [
+							107,
+							13
+						],
+						"size": [
+							94,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "Internet Speed",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": "16",
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					}
+				]
+			}
+		],
+		"event": [
+			{
+				"src": "screen_btn1",
+				"trigger": "clicked",
+				"dst": "screen_btn1",
+				"action": "bg_color",
+				"value": "#000000"
+			}
+		]
+	}
+}
