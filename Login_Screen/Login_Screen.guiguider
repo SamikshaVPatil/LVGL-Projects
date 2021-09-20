@@ -1,0 +1,3935 @@
+{
+	"projectName": "Login_Screen",
+	"boardPlatformSettings": {
+		"resolution": {
+			"width": "480",
+			"height": "272"
+		},
+		"color_depth": 16,
+		"name": "Simulator",
+		"OS": "Windows/macOS/Linux",
+		"mcu": "Simulator",
+		"mcuxpresso_config": {
+			"CMAKE_BUILD_TYPE": "null"
+		}
+	},
+	"BuildStatus": {
+		"supportPXP": false,
+		"enable_pxp": false
+	},
+	"version": "1.0.0-GA",
+	"lvConf": {
+		"LV_HOR_RES_MAX": "(480)",
+		"LV_VER_RES_MAX": "(272)",
+		"LV_COLOR_DEPTH": 16,
+		"LV_MEM_CUSTOM": "0",
+		"LV_MEM_SIZE": "320",
+		"LV_MEM_ADR": "0",
+		"LV_MEM_AUTO_DEFRAG": "1",
+		"LV_MEM_CUSTOM_INCLUDE": "<stdlib.h>",
+		"LV_MEM_CUSTOM_ALLOC": "malloc",
+		"LV_MEM_CUSTOM_FREE": "free",
+		"LV_USE_GPU": "1",
+		"LV_USE_GPU_NXP_PXP": "~~",
+		"LV_USE_GPU_NXP_PXP_DEFAULT_OSA": "~~",
+		"LV_USE_GPU_NXP_VG_LITE": "~~"
+	},
+	"ImportFonts": {
+		"simsun": "simsun.woff",
+		"montserratMedium": "Montserrat-medium.ttf"
+	},
+	"FrontJson": [
+		{
+			"name": "screen",
+			"id": "screen",
+			"list": [
+				{
+					"name": "label0",
+					"type": "label",
+					"left": 307,
+					"top": 25,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "LOGIN",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "2jnb80lz",
+					"default_style": false
+				},
+				{
+					"name": "label1",
+					"type": "label",
+					"left": 304,
+					"top": 59,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "USERNAME",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "ae3tcy6t",
+					"default_style": false
+				},
+				{
+					"name": "label2",
+					"type": "label",
+					"left": 304,
+					"top": 116,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "PASSWORD",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "6fjkot7n",
+					"default_style": false
+				},
+				{
+					"name": "unt",
+					"type": "ta",
+					"left": 298,
+					"top": 81,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#626e6f",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#626e6f",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "xl95vhl1",
+					"default_style": false
+				},
+				{
+					"name": "ta4",
+					"type": "ta",
+					"left": 297,
+					"top": 136,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#677374",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#677374",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "piks40kk",
+					"default_style": false
+				},
+				{
+					"name": "btn5",
+					"type": "btn",
+					"left": 297,
+					"top": 174,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 125,
+					"height": 20,
+					"text": "FORGOT PASSWORD",
+					"font": 12,
+					"font_family": "simsun",
+					"text_color": "#000000",
+					"toggle": false,
+					"part": "LV_BTN_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"border_width": 2,
+					"border_color": "#686e6e",
+					"border_opa": 255,
+					"radius": 50,
+					"outline_color": "#d4d7d9",
+					"outline_opa": 255,
+					"style": [
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#686e6e",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 100
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						}
+					],
+					"id": "l825r3i3",
+					"default_style": false,
+					"event": [
+						{
+							"src": "btn5",
+							"trigger": "clicked",
+							"dst": "zzajzzcz",
+							"action": "load_screen"
+						}
+					]
+				},
+				{
+					"name": "btn6",
+					"type": "btn",
+					"left": 308,
+					"top": 211,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 30,
+					"text": "LOGIN",
+					"font": 12,
+					"font_family": "simsun",
+					"text_color": "#000000",
+					"toggle": false,
+					"part": "LV_BTN_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"border_width": 2,
+					"border_color": "#505c5e",
+					"border_opa": 255,
+					"radius": 50,
+					"outline_color": "#d4d7d9",
+					"outline_opa": 255,
+					"style": [
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#505c5e",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 100
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						}
+					],
+					"id": "dd9eikrm",
+					"default_style": false,
+					"event": [
+						{
+							"src": "btn6",
+							"trigger": "clicked",
+							"dst": "f98k8jzw",
+							"action": "load_screen"
+						}
+					]
+				},
+				{
+					"name": "img7",
+					"type": "img",
+					"left": 74,
+					"top": 88,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 125,
+					"height": 100,
+					"img_path": "login.png",
+					"rotate": 0,
+					"x": 0,
+					"y": 0,
+					"color_format": "true-color-alpha",
+					"part": "LV_IMG_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"image_recolor": "#ffffff",
+					"image_recolor_opa": 0,
+					"image_opa": 255,
+					"style": [
+						{
+							"part": "LV_IMG_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"image_recolor": "#ffffff",
+							"image_recolor_opa": 0,
+							"image_opa": 255
+						}
+					],
+					"id": "gcoe8vc7",
+					"default_style": false
+				}
+			]
+		},
+		{
+			"id": "zzajzzcz",
+			"name": "Change_Password",
+			"list": [
+				{
+					"name": "label0",
+					"type": "label",
+					"left": 204,
+					"top": 22,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 209,
+					"height": 0,
+					"text": "CHANGE YOUR PASSWORD",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "6ujop096",
+					"default_style": false
+				},
+				{
+					"name": "label6",
+					"type": "label",
+					"left": 163,
+					"top": 57,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "USERNAME",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "zr7y00qh",
+					"default_style": false
+				},
+				{
+					"name": "label7",
+					"type": "label",
+					"left": 159,
+					"top": 114,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 138,
+					"height": 0,
+					"text": "NEWPASSWORD",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "bla3f09r",
+					"default_style": false
+				},
+				{
+					"name": "label8",
+					"type": "label",
+					"left": 164,
+					"top": 167,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 174,
+					"height": 0,
+					"text": "CONFIRM PASSWORD",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "4d8pz61h",
+					"default_style": false
+				},
+				{
+					"name": "ta9",
+					"type": "ta",
+					"left": 166,
+					"top": 78,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "ovwdbvkp",
+					"default_style": false
+				},
+				{
+					"name": "ta10",
+					"type": "ta",
+					"left": 166,
+					"top": 135,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "sk5trrrm",
+					"default_style": false
+				},
+				{
+					"name": "img8",
+					"type": "img",
+					"left": 7,
+					"top": 9,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 130,
+					"height": 249,
+					"img_path": "solidcolor.jpg",
+					"rotate": 0,
+					"x": 0,
+					"y": 0,
+					"color_format": "true-color-alpha",
+					"part": "LV_IMG_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"image_recolor": "#ffffff",
+					"image_recolor_opa": 0,
+					"image_opa": 255,
+					"style": [
+						{
+							"part": "LV_IMG_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"image_recolor": "#ffffff",
+							"image_recolor_opa": 0,
+							"image_opa": 255
+						}
+					],
+					"id": "e5t65p8p",
+					"default_style": false
+				},
+				{
+					"name": "label10",
+					"type": "label",
+					"left": 18,
+					"top": 33,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "HOME",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "mujust0q",
+					"default_style": false
+				},
+				{
+					"name": "ta8",
+					"type": "ta",
+					"left": 168,
+					"top": 187,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "e9yms1ze",
+					"default_style": false
+				},
+				{
+					"name": "btn9",
+					"type": "btn",
+					"left": 234,
+					"top": 221,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 120,
+					"height": 25,
+					"text": "Change Password",
+					"font": 12,
+					"font_family": "simsun",
+					"text_color": "#000000",
+					"toggle": false,
+					"part": "LV_BTN_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"border_width": 2,
+					"border_color": "#01a2b1",
+					"border_opa": 255,
+					"radius": 50,
+					"outline_color": "#d4d7d9",
+					"outline_opa": 255,
+					"style": [
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 100
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						}
+					],
+					"id": "dkfst9z0",
+					"default_style": false,
+					"event": [
+						{
+							"src": "btn9",
+							"trigger": "clicked",
+							"dst": "dkfst9z0",
+							"action": "bg_color",
+							"value": "#000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f98k8jzw",
+			"name": "form",
+			"list": [
+				{
+					"name": "label0",
+					"type": "label",
+					"left": 22,
+					"top": 19,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 0,
+					"text": "MODBUS",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#6c6565",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#6c6565",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "nq9ztgkf",
+					"default_style": false
+				},
+				{
+					"name": "label1",
+					"type": "label",
+					"left": 27,
+					"top": 59,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 183,
+					"height": 0,
+					"text": "TCP Server Address",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "dmwwh2n5",
+					"default_style": false
+				},
+				{
+					"name": "label2",
+					"type": "label",
+					"left": 270,
+					"top": 58,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 163,
+					"height": 0,
+					"text": "TCP Port Address",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "s6rtub6w",
+					"default_style": false
+				},
+				{
+					"name": "ta3",
+					"type": "ta",
+					"left": 46,
+					"top": 81,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "xg6uqhpt",
+					"default_style": false
+				},
+				{
+					"name": "ta4",
+					"type": "ta",
+					"left": 289,
+					"top": 80,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "5npdspd0",
+					"default_style": false
+				},
+				{
+					"name": "label5",
+					"type": "label",
+					"left": 37,
+					"top": 121,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 131,
+					"height": 0,
+					"text": "RTU Baud Rate",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "ywn7b8xh",
+					"default_style": false
+				},
+				{
+					"name": "label6",
+					"type": "label",
+					"left": 276,
+					"top": 123,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 137,
+					"height": 0,
+					"text": "RTU Server ID",
+					"text_align": "center",
+					"long_mode": "LV_LABEL_LONG_BREAK",
+					"part": "LV_LABEL_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"text_color": "#000000",
+					"font": 12,
+					"font_family": "simsun",
+					"letter_space": 2,
+					"radius": 0,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"style": [
+						{
+							"part": "LV_LABEL_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 12,
+							"font_family": "simsun",
+							"letter_space": 2,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						}
+					],
+					"id": "b3ifrbli",
+					"default_style": false
+				},
+				{
+					"name": "ta7",
+					"type": "ta",
+					"left": 45,
+					"top": 147,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "f6qnah7r",
+					"default_style": false
+				},
+				{
+					"name": "ta8",
+					"type": "ta",
+					"left": 293,
+					"top": 145,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 118,
+					"height": 21,
+					"text": "",
+					"display_kb": true,
+					"text_align": "left",
+					"part": "LV_PAGE_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 12,
+					"font_family": "simsun",
+					"paddingTop": 2,
+					"paddingBottom": 2,
+					"paddingRight": 2,
+					"paddingLeft": 2,
+					"border_width": 2,
+					"letter_space": 2,
+					"text_color": "#000000",
+					"border_color": "#01a2b1",
+					"radius": 0,
+					"style": [
+						{
+							"part": "LV_PAGE_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"text_color": "#000000",
+							"letter_space": 2,
+							"paddingTop": 2,
+							"paddingBottom": 2,
+							"paddingRight": 2,
+							"paddingLeft": 2,
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_SCROLLABLE",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						},
+						{
+							"part": "LV_PAGE_PART_EDGE_FLASH",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 0
+						}
+					],
+					"id": "vyydc8j8",
+					"default_style": false
+				},
+				{
+					"name": "cb9",
+					"type": "cb",
+					"left": 179,
+					"top": 15,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 0,
+					"height": 0,
+					"text": "TCP",
+					"part": "LV_CHECKBOX_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"font": "12",
+					"font_family": "simsun",
+					"letter_space": 0,
+					"text_color": "#0D3055",
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"border_color": "#02a2b1",
+					"border_width": 1,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"radius": 6,
+					"bg_opa": 0,
+					"style": [
+						{
+							"part": "LV_CHECKBOX_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0,
+							"text_color": "#0D3055",
+							"font": "12",
+							"font_family": "simsun",
+							"letter_space": 0,
+							"radius": 6,
+							"bg_opa": 0
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_CHECKED | LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						}
+					],
+					"id": "t6s4lb3g",
+					"default_style": false
+				},
+				{
+					"name": "cb10",
+					"type": "cb",
+					"left": 269,
+					"top": 14,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 0,
+					"height": 0,
+					"text": "RTU",
+					"part": "LV_CHECKBOX_PART_BG",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"font": "12",
+					"font_family": "simsun",
+					"letter_space": 0,
+					"text_color": "#0D3055",
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"border_color": "#02a2b1",
+					"border_width": 1,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"radius": 6,
+					"bg_opa": 0,
+					"style": [
+						{
+							"part": "LV_CHECKBOX_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0,
+							"text_color": "#0D3055",
+							"font": "12",
+							"font_family": "simsun",
+							"letter_space": 0,
+							"radius": 6,
+							"bg_opa": 0
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						},
+						{
+							"part": "LV_CHECKBOX_PART_BULLET",
+							"state": "LV_STATE_CHECKED | LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#02a2b1",
+							"border_width": 1,
+							"radius": 6,
+							"bg_opa": 255
+						}
+					],
+					"id": "3pms74mq",
+					"default_style": false
+				},
+				{
+					"name": "btn11",
+					"type": "btn",
+					"left": 172,
+					"top": 214,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 100,
+					"height": 20,
+					"text": "SAVE",
+					"font": 12,
+					"font_family": "simsun",
+					"text_color": "#000000",
+					"toggle": false,
+					"part": "LV_BTN_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_grad_color": "#ffffff",
+					"bg_opa": 255,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"border_width": 2,
+					"border_color": "#01a2b1",
+					"border_opa": 255,
+					"radius": 50,
+					"outline_color": "#d4d7d9",
+					"outline_opa": 255,
+					"style": [
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_PRESSED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_color": "#01a2b1",
+							"border_opa": 255,
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 100
+						},
+						{
+							"part": "LV_BTN_PART_MAIN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_width": 2,
+							"border_opa": 255,
+							"border_color": "#01a2b1",
+							"radius": 50,
+							"outline_color": "#d4d7d9",
+							"outline_opa": 255
+						}
+					],
+					"id": "trbmc9rl",
+					"default_style": false,
+					"event": [
+						{
+							"src": "btn11",
+							"trigger": "clicked",
+							"dst": "trbmc9rl",
+							"action": "bg_color",
+							"value": "#000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"FrontStatus": {},
+	"Application": {
+		"name": "testingJson",
+		"version": "test_v1",
+		"default_scr": "screen",
+		"screen": [
+			{
+				"name": "screen",
+				"type": "scr",
+				"widgets": [
+					{
+						"name": "screen_label0",
+						"type": "label",
+						"pos": [
+							307,
+							25
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "LOGIN",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "screen_label1",
+						"type": "label",
+						"pos": [
+							304,
+							59
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "USERNAME",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "screen_label2",
+						"type": "label",
+						"pos": [
+							304,
+							116
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "PASSWORD",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "screen_unt",
+						"type": "ta",
+						"pos": [
+							298,
+							81
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#626e6f",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "screen_ta4",
+						"type": "ta",
+						"pos": [
+							297,
+							136
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#677374",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "screen_btn5",
+						"type": "btn",
+						"pos": [
+							297,
+							174
+						],
+						"size": [
+							125,
+							20
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#686e6e",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 100
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							}
+						],
+						"text": "FORGOT PASSWORD",
+						"font": 12,
+						"font_family": "simsun",
+						"text_color": "#000000",
+						"toggle": false
+					},
+					{
+						"name": "screen_btn6",
+						"type": "btn",
+						"pos": [
+							308,
+							211
+						],
+						"size": [
+							100,
+							30
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#505c5e",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 100
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							}
+						],
+						"text": "LOGIN",
+						"font": 12,
+						"font_family": "simsun",
+						"text_color": "#000000",
+						"toggle": false
+					},
+					{
+						"name": "screen_img7",
+						"type": "img",
+						"pos": [
+							74,
+							88
+						],
+						"size": [
+							125,
+							100
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"img_path": "/home/sam/GUI-Guider-Projects/Login_Screen/import/login.png",
+						"color_format": "true-color-alpha",
+						"rotate": 0,
+						"pivot": "0,0",
+						"style": [
+							{
+								"part": "LV_IMG_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"image_recolor": "#ffffff",
+								"image_recolor_opa": 0,
+								"image_opa": 255
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Change_Password",
+				"type": "scr",
+				"widgets": [
+					{
+						"name": "Change_Password_label0",
+						"type": "label",
+						"pos": [
+							204,
+							22
+						],
+						"size": [
+							209,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "CHANGE YOUR PASSWORD",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_label6",
+						"type": "label",
+						"pos": [
+							163,
+							57
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "USERNAME",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_label7",
+						"type": "label",
+						"pos": [
+							159,
+							114
+						],
+						"size": [
+							138,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "NEWPASSWORD",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_label8",
+						"type": "label",
+						"pos": [
+							164,
+							167
+						],
+						"size": [
+							174,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "CONFIRM PASSWORD",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_ta9",
+						"type": "ta",
+						"pos": [
+							166,
+							78
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_ta10",
+						"type": "ta",
+						"pos": [
+							166,
+							135
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_img8",
+						"type": "img",
+						"pos": [
+							7,
+							9
+						],
+						"size": [
+							130,
+							249
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"img_path": "/home/sam/GUI-Guider-Projects/Login_Screen/import/solidcolor.jpg",
+						"color_format": "true-color-alpha",
+						"rotate": 0,
+						"pivot": "0,0",
+						"style": [
+							{
+								"part": "LV_IMG_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"image_recolor": "#ffffff",
+								"image_recolor_opa": 0,
+								"image_opa": 255
+							}
+						]
+					},
+					{
+						"name": "Change_Password_label10",
+						"type": "label",
+						"pos": [
+							18,
+							33
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "HOME",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_ta8",
+						"type": "ta",
+						"pos": [
+							168,
+							187
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "Change_Password_btn9",
+						"type": "btn",
+						"pos": [
+							234,
+							221
+						],
+						"size": [
+							120,
+							25
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 100
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							}
+						],
+						"text": "Change Password",
+						"font": 12,
+						"font_family": "simsun",
+						"text_color": "#000000",
+						"toggle": false
+					}
+				]
+			},
+			{
+				"name": "form",
+				"type": "scr",
+				"widgets": [
+					{
+						"name": "form_label0",
+						"type": "label",
+						"pos": [
+							22,
+							19
+						],
+						"size": [
+							100,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "MODBUS",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#6c6565",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "form_label1",
+						"type": "label",
+						"pos": [
+							27,
+							59
+						],
+						"size": [
+							183,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "TCP Server Address",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "form_label2",
+						"type": "label",
+						"pos": [
+							270,
+							58
+						],
+						"size": [
+							163,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "TCP Port Address",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "form_ta3",
+						"type": "ta",
+						"pos": [
+							46,
+							81
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "form_ta4",
+						"type": "ta",
+						"pos": [
+							289,
+							80
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "form_label5",
+						"type": "label",
+						"pos": [
+							37,
+							121
+						],
+						"size": [
+							131,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "RTU Baud Rate",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "form_label6",
+						"type": "label",
+						"pos": [
+							276,
+							123
+						],
+						"size": [
+							137,
+							0
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "RTU Server ID",
+						"long_mode": "LV_LABEL_LONG_BREAK",
+						"text_align": "center",
+						"style": [
+							{
+								"part": "LV_LABEL_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 12,
+								"font_family": "simsun",
+								"letter_space": 2,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": 0,
+								"paddingRight": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0
+							}
+						]
+					},
+					{
+						"name": "form_ta7",
+						"type": "ta",
+						"pos": [
+							45,
+							147
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "form_ta8",
+						"type": "ta",
+						"pos": [
+							293,
+							145
+						],
+						"size": [
+							118,
+							21
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "",
+						"text_align": "left",
+						"display_kb": true,
+						"style": [
+							{
+								"part": "LV_PAGE_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"text_color": "#000000",
+								"letter_space": 2,
+								"paddingTop": 2,
+								"paddingBottom": 2,
+								"paddingRight": 2,
+								"paddingLeft": 2,
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_SCROLLABLE",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							},
+							{
+								"part": "LV_PAGE_PART_EDGE_FLASH",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 0
+							}
+						]
+					},
+					{
+						"name": "form_cb9",
+						"type": "cb",
+						"pos": [
+							179,
+							15
+						],
+						"size": [
+							null,
+							null
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_CHECKBOX_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": null,
+								"paddingRight": null,
+								"paddingBottom": null,
+								"paddingLeft": null,
+								"text_color": "#0D3055",
+								"font": "12",
+								"font_family": "simsun",
+								"letter_space": 0,
+								"radius": 6,
+								"bg_opa": 0
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_CHECKED | LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							}
+						],
+						"text": "TCP"
+					},
+					{
+						"name": "form_cb10",
+						"type": "cb",
+						"pos": [
+							269,
+							14
+						],
+						"size": [
+							null,
+							null
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_CHECKBOX_PART_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"paddingTop": null,
+								"paddingRight": null,
+								"paddingBottom": null,
+								"paddingLeft": null,
+								"text_color": "#0D3055",
+								"font": "12",
+								"font_family": "simsun",
+								"letter_space": 0,
+								"radius": 6,
+								"bg_opa": 0
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							},
+							{
+								"part": "LV_CHECKBOX_PART_BULLET",
+								"state": "LV_STATE_CHECKED | LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#02a2b1",
+								"border_width": 1,
+								"radius": 6,
+								"bg_opa": 255
+							}
+						],
+						"text": "RTU"
+					},
+					{
+						"name": "form_btn11",
+						"type": "btn",
+						"pos": [
+							172,
+							214
+						],
+						"size": [
+							100,
+							20
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_PRESSED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_color": "#01a2b1",
+								"border_opa": 255,
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 100
+							},
+							{
+								"part": "LV_BTN_PART_MAIN",
+								"state": "LV_STATE_CHECKED",
+								"disable": true,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_width": 2,
+								"border_opa": 255,
+								"border_color": "#01a2b1",
+								"radius": 50,
+								"outline_color": "#d4d7d9",
+								"outline_opa": 255
+							}
+						],
+						"text": "SAVE",
+						"font": 12,
+						"font_family": "simsun",
+						"text_color": "#000000",
+						"toggle": false
+					}
+				]
+			}
+		],
+		"event": [
+			{
+				"src": "screen_btn5",
+				"trigger": "clicked",
+				"dst": "Change_Password",
+				"action": "load_screen"
+			},
+			{
+				"src": "screen_btn6",
+				"trigger": "clicked",
+				"dst": "form",
+				"action": "load_screen"
+			},
+			{
+				"src": "Change_Password_btn9",
+				"trigger": "clicked",
+				"dst": "Change_Password_btn9",
+				"action": "bg_color",
+				"value": "#000000"
+			},
+			{
+				"src": "form_btn11",
+				"trigger": "clicked",
+				"dst": "form_btn11",
+				"action": "bg_color",
+				"value": "#000000"
+			}
+		]
+	}
+}
